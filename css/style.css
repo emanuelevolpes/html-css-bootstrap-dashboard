@@ -46,8 +46,18 @@ main {
 }
 
 #sidebar {
-    background-color: blue;
-    padding: .625rem;
+    background-color: #051e34;
+    padding: 1.25rem;
+
+}
+
+#sidebar ul li {
+    color: white;
+    margin-bottom: .625rem;
+}
+
+#sidebar ul li span {
+    margin-left: .625rem;
 }
 
 #sidebar div ul li span.ms-desktop{
