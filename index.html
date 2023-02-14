@@ -35,22 +35,27 @@
     <header>
         <!-- nav -->
         <section id="nav">
-            <div class="continer-fluid" style="background-color: white;">
-                <div class="row text-center align-items-center">
+            <div class="container-fluid" style="background-color: white;">
+                <div class="row align-items-center justify-content-center">
                     <div class="col-2">
                         <img src="img/mobile-logo.png" alt="mobile-logo" class="d-lg-none">
-                        <img src="img/logo.svg" alt="logo" class="d-none d-lg-block ms-2" style="width: 150px;">
+                        <img src="img/logo.svg" alt="logo" class="d-none d-lg-block ms-2" style="width: 80%;">
                     </div>
-                    <div class="col-9"><div class="input-group">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                      </div>
-                      </div>
-                    <div class="col-1 d-flex">
-                        <a href="#" class="d-none d-lg-block pe-2"><i class="fa-solid fa-list-ul"></i></a>
-                        <a href="#" class="d-none d-lg-block pe-2"><i class="fa-solid fa-circle-question"></i></a>
-                        <a href="#" class="d-none d-lg-block pe-2"><i class="fa-solid fa-ellipsis-vertical"></i></a>
-                        <a href="#" class="pe-2"><i class="fa-solid fa-bell"></i></a>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                            <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel"
+                                aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <ul class="d-flex">
+                            <li><a href="#" class="d-none d-lg-block px-4"><i class="fa-solid fa-list-ul"></i></a></li>
+                            <li><a href="#" class="d-none d-lg-block pe-4"><i class="fa-solid fa-circle-question"></i></a></li>
+                            <li><a href="#" class="d-none d-lg-block pe-4"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -80,12 +85,22 @@
         <!-- center main -->
         <section id="center-main">
             <!-- top center main -->
-            <div class="top-center-main mb-3">
-                <div class="container-fluid">
-                    <div class="row gy-2">
-                        <div class="col-12 col-lg-4">1</div>
-                        <div class="col-12 col-lg-4">2</div>
-                        <div class="col-12 col-lg-4">3</div>
+            <div class="top-center-main">
+                <div class="container-fluid py-3">
+                    <div class="row gy-3">
+                        <div class="col-12 col-md-4 order-md-1">
+                            <h3>Nuovo Studente</h3>
+                            <button class="btn btn-primary btn-outline-light" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                    class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <h3>Boolean</h3>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <h3>Studenti online negli ultimi 30 minuti</h3>
+                            <h3>125</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,9 +126,22 @@
     </main>
     <!-- /main -->
     <footer></footer>
+    <!--  offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            ...
+        </div>
+    </div>
+    <!--  /offcanvas -->
+    <!-- cdnjs -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <!-- /cdnjs -->
 </body>
 
 </html>

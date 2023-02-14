@@ -12,6 +12,7 @@ ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    margin-bottom: 0;
 }
 
 a {
@@ -66,17 +67,22 @@ main {
 
 #center-main {
     width: 100%;
-    padding: 20px;
     background-color: pink;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 #center-main .top-center-main {
-    background-color: aqua;
+    background-color: #1b72e8;
+}
+
+#center-main .top-center-main div h3 {
+    color: white;
+    font-size: 1.5625rem;
+    font-weight: 400;
 }
 
 #center-main .bottom-center-main {
-    background-color: yellowgreen;
+    background-color: white;
 }
 
 /*
