@@ -38,3 +38,23 @@ main {
     background-color: blue;
     padding: .625rem;
 }
+
+#sidebar div ul li span.ms-desktop{
+    display: none;
+}
+
+/*
+---------------------
+media queries
+---------------------
+*/
+
+@media screen and (min-width:992px){
+    #sidebar{
+        width: 9.375rem;
+    }
+
+    #sidebar div ul li span.ms-desktop{
+        display: inline-block;
+    }
+}
