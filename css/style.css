@@ -12,6 +12,10 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*
 ----------
 header
@@ -22,6 +26,11 @@ header {
     height: 4.375rem;
     background-color: #f8f9fa;
     padding: .625rem 0;
+}
+
+#nav div img {
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 /*
