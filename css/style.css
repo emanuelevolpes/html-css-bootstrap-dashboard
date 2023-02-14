@@ -4,6 +4,16 @@ body {
 
 /*
 ----------
+common
+----------
+*/
+
+ul {
+    list-style: none;
+}
+
+/*
+----------
 header
 ----------
 */
@@ -12,4 +22,19 @@ header {
     height: 4.375rem;
     background-color: #f8f9fa;
     padding: .625rem 0;
+}
+
+/*
+----------
+main
+----------
+*/
+
+main {
+    height: calc(100vh - 4.375rem);
+}
+
+#sidebar {
+    background-color: blue;
+    padding: .625rem;
 }
