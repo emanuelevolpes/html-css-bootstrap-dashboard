@@ -43,6 +43,21 @@ main {
     display: none;
 }
 
+#center-main {
+    width: 100%;
+    padding: 20px;
+    background-color: pink;
+    overflow: auto;
+}
+
+#center-main .top-center-main {
+    background-color: aqua;
+}
+
+#center-main .bottom-center-main {
+    background-color: yellowgreen;
+}
+
 /*
 ---------------------
 media queries
