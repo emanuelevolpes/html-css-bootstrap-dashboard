@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+td > img {
+    width: 2.5rem;
+}
+
 /*
 ----------
 header
@@ -82,7 +86,8 @@ main {
 }
 
 #center-main .bottom-center-main {
-    background-color: white;
+    background-color: #f8f9fa;
+    padding: 1.5625rem .9375rem;
 }
 
 /*
