@@ -1,7 +1,3 @@
-:root {
-    --bs-offcanvas-width: 100%;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -23,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-td > img {
+td>img {
     width: 2.5rem;
 }
 
@@ -32,8 +28,13 @@ td > img {
     border-color: lightgray;
 }
 
-.offcanvas, .offcanvas-end {
+.offcanvas,
+.offcanvas-end {
     width: var(--bs-offcanvas-width);
+}
+
+.offcanvas-size {
+    --bs-offcanvas-width: 100% !important;
 }
 
 /*
@@ -93,7 +94,7 @@ main {
     margin-left: .625rem;
 }
 
-#sidebar ul li span.ms-desktop{
+#sidebar ul li span.ms-desktop {
     display: none;
 }
 
@@ -131,12 +132,18 @@ media queries
 ---------------------
 */
 
-@media screen and (min-width:992px){
-    #sidebar{
+@media screen and (min-width:992px) {
+    #sidebar {
         width: 9.375rem;
     }
 
-    #sidebar ul li span.ms-desktop{
+    #sidebar ul li span.ms-desktop {
         display: inline-block;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .offcanvas-size {
+        --bs-offcanvas-width: 45% !important;
     }
 }
