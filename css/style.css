@@ -19,20 +19,6 @@ a {
     text-decoration: none;
 }
 
-td>img {
-    width: 2.5rem;
-}
-
-.ms-form-control:focus {
-    box-shadow: none;
-    border-color: lightgray;
-}
-
-.offcanvas,
-.offcanvas-end {
-    width: var(--bs-offcanvas-width);
-}
-
 .offcanvas-size {
     --bs-offcanvas-width: 100% !important;
 }
@@ -62,6 +48,11 @@ header .row .col-auto ul li a i.fa-solid.fa-bell {
     color: #ff8f00;
 }
 
+.ms-form-control:focus {
+    box-shadow: none;
+    border-color: lightgray;
+}
+
 /*
 ----------
 main
@@ -74,7 +65,6 @@ main {
 
 #sidebar {
     background-color: #051e34;
-    background-image: url(sidebar-bg.png);
     padding: 1.25rem;
 }
 
@@ -82,12 +72,6 @@ main {
     color: white;
     margin-bottom: .625rem;
     padding: .3125rem;
-}
-
-#sidebar ul li:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: rgba(191, 191, 191, 0.5)
 }
 
 #sidebar ul li span {
@@ -109,6 +93,8 @@ main {
 
 #center-main .top-center-main span.badge {
     background-color: #165bba;
+    font-weight: 400;
+    font-size: .875rem;
 }
 
 #center-main .top-center-main div h3 {
@@ -117,9 +103,17 @@ main {
     font-weight: 400;
 }
 
+#center-main .top-center-main i.fa-solid.fa-angles-right {
+    color: white;
+}
+
 #center-main .bottom-center-main {
     background-color: #f8f9fa;
     padding: 1.5625rem .9375rem;
+}
+
+td>img {
+    width: 2.5rem;
 }
 
 tbody tr td:first-child {
@@ -146,4 +140,16 @@ media queries
     .offcanvas-size {
         --bs-offcanvas-width: 45% !important;
     }
+}
+
+/*
+----------
+effect
+----------
+*/
+
+#sidebar ul li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(191, 191, 191, 0.5)
 }
