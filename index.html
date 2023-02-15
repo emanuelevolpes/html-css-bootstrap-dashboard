@@ -44,17 +44,15 @@
                     <div class="input-group">
                         <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i
                                 class="fa-solid fa-magnifying-glass"></i></button>
-                        <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel"
+                        <input type="text" class="form-control ms-form-control" placeholder="Prova a cercare: Lezioni di Laravel"
                             aria-label="Example text with button addon" aria-describedby="button-addon1">
                     </div>
                 </div>
                 <div class="col-auto">
                     <ul class="d-flex align-items-center">
                         <li><a href="#" class="d-none d-lg-block px-4"><i class="fa-solid fa-list-ul"></i></a></li>
-                        <li><a href="#" class="d-none d-lg-block pe-4"><i
-                                    class="fa-solid fa-circle-question"></i></a></li>
-                        <li><a href="#" class="d-none d-lg-block pe-2"><i
-                                    class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                        <li><a href="#" class="d-none d-lg-block pe-4"><i class="fa-solid fa-circle-question"></i></a></li>
+                        <li><a href="#" class="d-none d-lg-block pe-2"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
                         <li>
                             <div class="dropdown">
                                 <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a
@@ -79,12 +77,12 @@
         <!-- sidebar -->
         <section id="sidebar" class="d-flex flex-column justify-content-between">
             <ul>
-                <li><i class="fa-solid fa-house"></i><span class="ms-desktop"> Home</span></li>
-                <li><i class="fa-solid fa-chart-simple"></i><span class="ms-desktop"> Stats</span></li>
-                <li><i class="fa-solid fa-signal"></i><span class="ms-desktop"> Signals</span></li>
+                <li><i class="fa-solid fa-house fs-5"></i><span class="ms-desktop"> Home</span></li>
+                <li><i class="fa-solid fa-chart-simple fs-4"></i><span class="ms-desktop"> Stats</span></li>
+                <li><i class="fa-solid fa-signal fs-5"></i><span class="ms-desktop"> Signals</span></li>
             </ul>
             <ul>
-                <li><i class="fa-solid fa-gear"></i><span class="ms-desktop"> Admin</span></li>
+                <li><i class="fa-solid fa-gear fs-5"></i><span class="ms-desktop"> Admin</span></li>
             </ul>
         </section>
         <!-- /sidebar -->
@@ -96,30 +94,30 @@
             <div class="top-center-main">
                 <div class="container-fluid py-3">
                     <div class="row gy-3">
-                        <div class="col-12 col-md-4 order-md-1 text-md-center">
+                        <div class="col-12 col-md-3 order-md-1 text-md-center">
                             <h3 class="d-inline-block">Nuovo Studente</h3>
-                            <button class="btn btn-primary btn-outline-light" type="button" data-bs-toggle="offcanvas"
+                            <button class="btn btn-primary btn-outline-light ms-2 mb-2" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
                                     class="fa-solid fa-plus"></i></button>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <h3 class="fw-semibold d-inline-block">Boolean</h3>
-                            <span class="badge rounded-pill text-bg-secondary">Piano blaze</span>
+                        <div class="col-12 col-md-5">
+                            <h3 class="d-inline-block fs-1">Boolean</h3>
+                            <span class="badge rounded-pill">Piano blaze</span>
                             <div>
-                                <span class="badge rounded-pill text-bg-secondary">3 App</span>
+                                <span class="badge rounded-pill">3 App</span>
                                 <i class="fa-solid fa-angles-right" style="color: white;"></i>
-                                <span class="badge rounded-pill text-bg-secondary d-inline-block d-lg-none">+</span>
-                                <span class="badge rounded-pill text-bg-secondary d-none d-lg-inline-block">Boolean
+                                <span class="badge rounded-pill d-inline-block d-lg-none">+</span>
+                                <span class="badge rounded-pill d-none d-lg-inline-block">Boolean
                                     mobile app</span>
-                                <span class="badge rounded-pill text-bg-secondary d-none d-lg-inline-block">Boolean web
+                                <span class="badge rounded-pill d-none d-lg-inline-block">Boolean web
                                     app</span>
-                                <span class="badge rounded-pill text-bg-secondary d-none d-lg-inline-block">Boolean blog
+                                <span class="badge rounded-pill d-none d-lg-inline-block">Boolean blog
                                     app</span>
                             </div>
                         </div>
                         <div class="col-12 col-md-4">
                             <h3>Studenti online negli ultimi 30 minuti</h3>
-                            <h3>125</h3>
+                            <h3 class="fs-1">125</h3>
                         </div>
                     </div>
                 </div>
@@ -152,7 +150,7 @@
                                         <!-- tbody -->
                                         <tbody>
                                             <tr class="text-center">
-                                                <td class="text-start"><img src="img/class-avatar.jpg"
+                                                <td class="text-start "><img src="img/class-avatar.jpg"
                                                         alt="class-avatar" class="me-2"><span>Classe 80</span></td>
                                                 <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
                                                 <td class="d-none d-md-table-cell py-3">20%</td>
@@ -165,7 +163,19 @@
                                             </tr>
                                             <tr class="text-center">
                                                 <td class="text-start"><img src="img/class-avatar.jpg"
-                                                        alt="class-avatar" class="me-2"><span>Classe 80</span></td>
+                                                        alt="class-avatar" class="me-2"><span>Classe 81</span></td>
+                                                <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell py-3">20%</td>
+                                                <td class="py-3"><span class="badge text-bg-success">done</span></td>
+                                                <td><button type="button" class="btn btn-outline-secondary"><i
+                                                            class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i
+                                                            class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                            </tr>
+                                            <tr class="text-center">
+                                                <td class="text-start"><img src="img/class-avatar.jpg"
+                                                        alt="class-avatar" class="me-2"><span>Classe 82</span></td>
                                                 <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
                                                 <td class="d-none d-md-table-cell py-3">20%</td>
                                                 <td class="py-3"><span class="badge text-bg-danger">failed</span></td>
@@ -177,7 +187,7 @@
                                             </tr>
                                             <tr class="text-center">
                                                 <td class="text-start"><img src="img/class-avatar.jpg"
-                                                        alt="class-avatar" class="me-2"><span>Classe 80</span></td>
+                                                        alt="class-avatar" class="me-2"><span>Classe 83</span></td>
                                                 <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
                                                 <td class="d-none d-md-table-cell py-3">20%</td>
                                                 <td class="py-3"><span class="badge text-bg-danger">failed</span></td>
@@ -189,7 +199,19 @@
                                             </tr>
                                             <tr class="text-center">
                                                 <td class="text-start"><img src="img/class-avatar.jpg"
-                                                        alt="class-avatar" class="me-2"><span>Classe 80</span></td>
+                                                        alt="class-avatar" class="me-2"><span>Classe 84</span></td>
+                                                <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell py-3">20%</td>
+                                                <td class="py-3"><span class="badge text-bg-success">done</span></td>
+                                                <td><button type="button" class="btn btn-outline-secondary"><i
+                                                            class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i
+                                                            class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                            </tr>
+                                            <tr class="text-center">
+                                                <td class="text-start"><img src="img/class-avatar.jpg"
+                                                        alt="class-avatar" class="me-2"><span>Classe 85</span></td>
                                                 <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
                                                 <td class="d-none d-md-table-cell py-3">20%</td>
                                                 <td class="py-3"><span class="badge text-bg-danger">failed</span></td>
@@ -201,7 +223,19 @@
                                             </tr>
                                             <tr class="text-center">
                                                 <td class="text-start"><img src="img/class-avatar.jpg"
-                                                        alt="class-avatar" class="me-2"><span>Classe 80</span></td>
+                                                        alt="class-avatar" class="me-2"><span>Classe 86</span></td>
+                                                <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
+                                                <td class="d-none d-md-table-cell py-3">20%</td>
+                                                <td class="py-3"><span class="badge text-bg-success">done</span></td>
+                                                <td><button type="button" class="btn btn-outline-secondary"><i
+                                                            class="fa-solid fa-pencil"></i></button>
+                                                    <button type="button" class="btn btn-outline-secondary"><i
+                                                            class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                            </tr>
+                                            <tr class="text-center">
+                                                <td class="text-start"><img src="img/class-avatar.jpg"
+                                                        alt="class-avatar" class="me-2"><span>Classe 87/span></td>
                                                 <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
                                                 <td class="d-none d-md-table-cell py-3">20%</td>
                                                 <td class="py-3"><span class="badge text-bg-danger">failed</span></td>
@@ -213,10 +247,10 @@
                                             </tr>
                                             <tr class="text-center">
                                                 <td class="text-start"><img src="img/class-avatar.jpg"
-                                                        alt="class-avatar" class="me-2"><span>Classe 80</span></td>
+                                                        alt="class-avatar" class="me-2"><span>Classe 88</span></td>
                                                 <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
                                                 <td class="d-none d-md-table-cell py-3">20%</td>
-                                                <td class="py-3"><span class="badge text-bg-danger">failed</span></td>
+                                                <td class="py-3"><span class="badge text-bg-success">done</span></td>
                                                 <td><button type="button" class="btn btn-outline-secondary"><i
                                                             class="fa-solid fa-pencil"></i></button>
                                                     <button type="button" class="btn btn-outline-secondary"><i
@@ -225,46 +259,10 @@
                                             </tr>
                                             <tr class="text-center">
                                                 <td class="text-start"><img src="img/class-avatar.jpg"
-                                                        alt="class-avatar" class="me-2"><span>Classe 80</span></td>
+                                                        alt="class-avatar" class="me-2"><span>Classe 89</span></td>
                                                 <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
                                                 <td class="d-none d-md-table-cell py-3">20%</td>
-                                                <td class="py-3"><span class="badge text-bg-danger">failed</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary"><i
-                                                            class="fa-solid fa-pencil"></i></button>
-                                                    <button type="button" class="btn btn-outline-secondary"><i
-                                                            class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-                                            <tr class="text-center">
-                                                <td class="text-start"><img src="img/class-avatar.jpg"
-                                                        alt="class-avatar" class="me-2"><span>Classe 80</span></td>
-                                                <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
-                                                <td class="d-none d-md-table-cell py-3">20%</td>
-                                                <td class="py-3"><span class="badge text-bg-danger">failed</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary"><i
-                                                            class="fa-solid fa-pencil"></i></button>
-                                                    <button type="button" class="btn btn-outline-secondary"><i
-                                                            class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-                                            <tr class="text-center">
-                                                <td class="text-start"><img src="img/class-avatar.jpg"
-                                                        alt="class-avatar" class="me-2"><span>Classe 80</span></td>
-                                                <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
-                                                <td class="d-none d-md-table-cell py-3">20%</td>
-                                                <td class="py-3"><span class="badge text-bg-danger">failed</span></td>
-                                                <td><button type="button" class="btn btn-outline-secondary"><i
-                                                            class="fa-solid fa-pencil"></i></button>
-                                                    <button type="button" class="btn btn-outline-secondary"><i
-                                                            class="fa-solid fa-trash"></i></button>
-                                                </td>
-                                            </tr>
-                                            <tr class="text-center">
-                                                <td class="text-start"><img src="img/class-avatar.jpg"
-                                                        alt="class-avatar" class="me-2"><span>Classe 80</span></td>
-                                                <td class="d-none d-md-table-cell py-3">15 Feb 2021</td>
-                                                <td class="d-none d-md-table-cell py-3">20%</td>
-                                                <td class="py-3"><span class="badge text-bg-danger">failed</span></td>
+                                                <td class="py-3"><span class="badge text-bg-success">done</span></td>
                                                 <td><button type="button" class="btn btn-outline-secondary"><i
                                                             class="fa-solid fa-pencil"></i></button>
                                                     <button type="button" class="btn btn-outline-secondary"><i
