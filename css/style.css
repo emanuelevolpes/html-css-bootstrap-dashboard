@@ -1,3 +1,7 @@
+:root {
+    --bs-offcanvas-width: 100%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -26,6 +30,10 @@ td > img {
 .ms-form-control:focus {
     box-shadow: none;
     border-color: lightgray;
+}
+
+.offcanvas, .offcanvas-end {
+    width: var(--bs-offcanvas-width);
 }
 
 /*
